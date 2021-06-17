@@ -9,7 +9,7 @@ body{
 header{
     background: url("images/csm_Italien_0525c8ba3c.jpg") rgb(59, 57, 61);
     background-blend-mode: multiply;
-    background-size: 1400px auto;
+    background-size: 1500px auto;
     background-position-y: -50px;
 }
 header .container-header{
@@ -177,37 +177,40 @@ footer .footer-credit{
     padding: 10px 10px;
 }
 #menu-food1{
-    background: url("images/1.jpg") rgb(92, 92, 92);
+    background: url("images/restaurant_fratelli_giethoorn_pizza3.jpg") rgb(107, 107, 107);
     background-blend-mode: multiply;
     background-size: cover;
 }
 #menu-food1:hover{
-    background: url("images/1.jpg") rgb(51, 40, 40);
+    background: url("images/1.jpg") rgb(49, 49, 49);
     background-blend-mode: multiply;
     background-size: cover;
     cursor: pointer;
+    transition: .5s;
 }
 #menu-food2{
-    background: url("images/pasta-pomodoro.jpg") rgb(92, 92, 92);
+    background: url("images/shutterstock_1206985765.jpg") rgb(107, 107, 107);
     background-blend-mode: multiply;
     background-size: cover;
 }
 #menu-food2:hover{
-    background: url("images/pasta-pomodoro.jpg") rgb(51, 40, 40);
+    background: url("images/pasta-pomodoro.jpg") rgb(49, 49, 49);
     background-blend-mode: multiply;
     background-size: cover;
     cursor: pointer;
+    transition: .5s;
 }
 #menu-food3{
-    background: url("images/beef-lasagna-square.jpg") rgb(92, 92, 92);
+    background: url("images/restaurants-thuisbezorgd-1585316010.jpg") rgb(107, 107, 107);
     background-blend-mode: multiply;
     background-size: cover;
 }
 #menu-food3:hover{
-    background: url("images/beef-lasagna-square.jpg") rgb(51, 40, 40);
+    background: url("images/2075030874-1572333088-1083620919.jpg") rgb(49, 49, 49);
     background-blend-mode: multiply;
     background-size: cover;
     cursor: pointer;
+    transition: .5s;
 }
 @media (min-width: 786px){
     header p{
@@ -251,6 +254,7 @@ footer .footer-credit{
     footer .footer-container{
         display: grid;
         grid-template-columns: 40% 60%;
+        grid-template-rows: 90% 10%;
         padding: 50px 100px 0;
     }
     footer .footer-container-links{
